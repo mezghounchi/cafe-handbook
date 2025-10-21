@@ -13,6 +13,10 @@ export default defineConfig(({ mode }) => {
       plugins: [
         react(),
         VitePWA({
+          devOptions: {
+        enabled: true,
+        // ...
+          },
           registerType: 'autoUpdate',
           // ++ بخش حیاتی اول: معرفی صریح فایل‌های استاتیک
           // به پلاگین می‌گوییم این فایل‌ها را، هرجا که هستند، پیدا و به لیست کش اضافه کن.

@@ -3,7 +3,7 @@ import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { ChapterId } from './types';
 import { CHAPTERS } from './constants';
 import Sidebar from './components/Sidebar';
-import PwaPopups from './components/PwaPopups';
+// import PwaPopups from './components/PwaPopups';
 import Chapter1 from './components/chapters/Chapter1';
 import Chapter2 from './components/chapters/Chapter2';
 import Chapter3 from './components/chapters/Chapter3';
@@ -84,7 +84,7 @@ const App: React.FC = () => {
             </div>
         </main>
         
-        <PwaPopups />
+        {/* <PwaPopups /> */}
     </div>
   );
 };
